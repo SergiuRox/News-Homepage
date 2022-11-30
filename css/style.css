@@ -13,6 +13,7 @@ body {background-color: #fefdf9;
     top:0px; left: 20px;
     padding-top: 40px;
     padding-left: 50px;
+
   }
   
   .navbar
@@ -28,8 +29,10 @@ body {background-color: #fefdf9;
   
   .navbar a:hover {
     background: none;
-    color: red;}
-    .navbar a {
+    color: red;
+  }
+    
+  .navbar a {
     float: left;
     color: gray;
     text-align: center;
@@ -38,27 +41,43 @@ body {background-color: #fefdf9;
   }
   
   
-  .image-web-3 {width: 75%; }
-  .left-containter {background-color: #fefdf9; float: right;}
+  .image-web-3 {width: 70%; }
+
+  .both-containers {
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .left-containter {background-color: #fefdf9;
+    float: left;
+    width: 70%;
+    margin: auto;
+    }
+
   .right-container
   { background-color: #00001a;
     color: white;
-    position: relative;
-    left: 1130px;
-    width:300px;
+    float: right;
     padding: 20px;
+    width: 20%;
+  }
   
-    }
-  
+  .Bottom-Container {
+    display: block;
+ 
+  }
+
   .web30 {width: 15%; position: absolute; margin: 0;}
   
-  .first-paragraph
-   {width: 30%;
-     position: relative;
-      left: 30%;
-      bottom: 10%;
-      line-height: 1.5;
-    margin-top: 15px;}
+  .first-paragraph{
+   width: 30%;
+   position: relative;
+   left: 30%;
+   bottom: 10%;
+   line-height: 1.5;
+   margin-top: 15px;}
   
   
   
