@@ -1,5 +1,5 @@
 body {background-color: #fefdf9;
-  padding: 70px 70px 70px 70px;
+  padding: 30px;
   font-family: 'Merriweather', serif;
   }
   @font-face {
@@ -11,53 +11,45 @@ body {background-color: #fefdf9;
   }
 
   h2 {color: #e4ad5e;}
-  
+
   p {
     font-size: 15px;
   }
 
   /* Adaug head pentru a pozitiona totul pe aceeasi linie */
-  .head {
-    display: block;
-    float: left;
-    position: fixed;
-    top:0px; left: 20px;
-    padding-top: 40px;
-    padding-left: 150px;
-    padding-bottom: 40px;
-  }
-  
+  .W {margin-left: 100px;}
+
   .navbar
   {text-align: right;
-    position: fixed;
-    top:0px; right: 20px;
+    position: absolute;
+    top:0px; right: 30px;
     padding-top: 70px;
-    padding-right: 140px;
+    padding-right: 110px;
   }
-  p {line-height: 1.5;}
-  
+  p {line-height: 2; font-size: 15px;}
+
   hr {width: 90%;
   margin-bottom: 50px;}
-  
+
   .navbar a:hover {
     background: none;
     color: red;
   }
-    
+
   .navbar a {
-    float: left;
+
     color: gray;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 27px;
     text-decoration: none;
   }
-  
-  
+
+
   .image-web-3 {width: 90%; }
 
   .both-containers {
     display: inline-block;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -75,26 +67,29 @@ body {background-color: #fefdf9;
     padding: 20px;
     width: 30%;
   }
-  
+
   .Bottom-Container {
     display: inline-block;
     position: relative;
-    padding-left: 90px;
-    width: 10%;
+    padding-top: 50px;
+    padding-left: 17px;
+    width: 14%;
   }
   .Bottom-Container img {
-    width: 100%;
+    width: 65%; margin: 0;
   }
 
-  .Bottom-Container h2 {
+  .Bottom-Container h3 {
     opacity: 0.8;
     font-size: 30px;
     color: gray;
-  }
 
+  }
+.Bottom-Container p {width: 170px; margin: 0;}
 
   .one {
     float: inline-start;
+    margin: 0;
   }
   .two {
     float: none;
@@ -104,20 +99,25 @@ body {background-color: #fefdf9;
     float: inline-end;
   }
 
-  .web30 {width: 15%; position: absolute; margin: 0; float: left;}
-  
+  .web30
+  {width: 17%;
+    position: absolute;
+    margin: 0; line-height: 1,8;
+     font-size: 50px;
+     font-family: sans-serif;}
+
   .first-paragraph{
-   width: 40%;
+   width: 45%;
    position: relative;
-   left: 50%;
+   left: 45%;
    bottom: 10%;
-   line-height: 1.5;
-   margin-top: 15px;
+   line-height: 1.8;
+   margin-top: 7px;
   }
-   
-  
-  
-  
+
+
+
+
   .btn {
     background: #f15d51;
     background-image: -webkit-linear-gradient(top, #f15d51, #f15d51);
@@ -128,14 +128,15 @@ body {background-color: #fefdf9;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
-    font-family: Arial;
+    font-family: 'Inter-ExtraBold';
+    src: url(assets\fonts\static\Inter-ExtraBold.ttf);
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-top: 50px;
   }
-  
+
   .btn:hover {
     background: #142136;
     background-image: -webkit-linear-gradient(top, #142136, #142136);
