@@ -29,7 +29,7 @@ body {background-color: #fefdf9;
   p {line-height: 2; font-size: 15px;}
 
   hr {width: 90%;
-  margin-bottom: 50px;}
+  margin-bottom: 30px;}
 
   .navbar a:hover {
     background: none;
@@ -50,8 +50,8 @@ body {background-color: #fefdf9;
   .both-containers {
     display: inline-block;
     padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
   .left-containter {background-color: #fefdf9;
@@ -69,23 +69,34 @@ body {background-color: #fefdf9;
   }
 
   .Bottom-Container {
-    display: inline-block;
     position: relative;
-    padding-top: 50px;
-    padding-left: 17px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 0px;
     width: 14%;
+    text-align: left;
+  }
+
+
+  #first-picture {
+    padding-left: 100px;
   }
   .Bottom-Container img {
-    width: 65%; margin: 0;
+    width: 70%; margin: auto;
+    height: 100%;
   }
 
   .Bottom-Container h3 {
-    opacity: 0.8;
-    font-size: 30px;
+    opacity: 0.5;
+    font-size: 50px;
     color: gray;
-
+    padding: 0px;
+    margin: 0px;
   }
-.Bottom-Container p {width: 170px; margin: 0;}
+  .Bottom-Container h4 {
+    width: 200px;
+  }
+.Bottom-Container p {width: 250px; margin: 0;}
 
   .one {
     float: inline-start;
@@ -99,27 +110,24 @@ body {background-color: #fefdf9;
     float: inline-end;
   }
 
-  .web30
-  {width: 19%;
+  .web30 {
+   width: 25%;
    position: absolute;
-   margin: 0; line-height: 1,8;
+   margin: 0; 
+   line-height: 1.2;
    font-size: 50px;
    font-family: sans-serif;
-   padding-top: 30px;
-   font-weight: bolder;}
+   font-weight: 800;
+   padding-top: 40px;
+  }
 
   .first-paragraph{
    width: 45%;
    position: relative;
    left: 45%;
-   bottom: 10%;
    line-height: 1.8;
-   margin-top: 7px;
    padding-top: 40px;
   }
-
-
-
 
   .btn {
     background: #f15d51;
@@ -148,4 +156,9 @@ body {background-color: #fefdf9;
     background-image: -o-linear-gradient(top, #142136, #142136);
     background-image: linear-gradient(to bottom, #142136, #142136);
     text-decoration: none;
+  }
+
+  .attribution {
+    text-align: center;
+    margin-top: 50px;
   }
